@@ -1,0 +1,31 @@
+body
+{
+    font-family: monospace;
+    margin: auto;
+    padding: 1em;
+    max-width: 800px;
+}
+
+table, td, th
+{
+    font-size: 110%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    background: beige;
+}
+
+th
+{
+    background: lightblue;
+}
+
+h1, h2
+{
+    text-decoration: underline;
+}
+
+section
+{
+    margin-left: 2em;
+}
