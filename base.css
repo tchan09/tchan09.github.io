@@ -1,10 +1,15 @@
+@font-face {
+    font-family: 'Cardo';
+    src: url('./Cardo.ttf');
+}
+
 /* Day time colours  */
 @media (prefers-color-scheme: light)
 {
     body
     {
         color: #272D2D;
-        font-family: : "Cardo", Georgia, Times, "Times New Roman", sans-serif;
+        font-family: "Cardo", Georgia, Times, "Times New Roman", sans-serif;
     }
 
     a
