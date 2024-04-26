@@ -1,4 +1,5 @@
-@font-face {
+@font-face
+{
     font-family: 'Cardo';
     src: url('./Cardo.ttf');
 }
@@ -9,12 +10,18 @@
     body
     {
         color: #272D2D;
+        background: #F9F6F0;
         font-family: "Cardo", Georgia, Times, "Times New Roman", sans-serif;
     }
 
     a
     {
-        color: #403a36;
+        color: #403A36;
+    }
+
+    code
+    {
+        background-color: #FFF;
     }
 }
 
@@ -23,20 +30,46 @@
 {
     body
     {
-        color: #eee;
+        color: #EEE;
         background: #121212;
         font-family: Avenir, "Sesgoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", system-ui, -apple-system, sans-serif;
     }
 
     a
     {
-        color: #eee;
+        color: #EEE;
+    }
+
+    code
+    {
+        background-color: #645454;
     }
 }
 
 *
 {
     margin: 0.3em;
+}
+
+p
+{
+    margin: 9.6px;
+}
+
+em, strong, u
+{
+    margin: 0;
+}
+
+li 
+{
+    list-style-type: circle;
+}
+
+code
+{
+    border: 1px dashed #ccc;
+    padding: 2px;
 }
 
 
