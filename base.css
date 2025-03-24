@@ -1,3 +1,5 @@
+@import url("./color_expanded.css");
+
 @font-face
 {
     font-family: 'Cardo';
@@ -9,8 +11,8 @@
 {
     body
     {
-        color: #272D2D;
-        background: #F9F6F0;
+        color: var(--uchu-yin-9);
+        background: var(--uchu-yellow-1);
         font-family: "Cardo", Georgia, Times, "Times New Roman", sans-serif;
     }
 
@@ -30,9 +32,10 @@
 {
     body
     {
-        color: #EEE;
-        background: #121212;
+        color: var(--uchu-gray-1);
+        background: var(--uchu-yin-9);
         font-family: Avenir, "Sesgoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", system-ui, -apple-system, sans-serif;
+        /* font-family: "Cardo", Georgia, Times, "Times New Roman", sans-serif; */
     }
 
     a
@@ -61,7 +64,7 @@ em, strong, u
     margin: 0;
 }
 
-li 
+li
 {
     list-style-type: circle;
 }
