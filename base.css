@@ -61,10 +61,9 @@
 {
     body
     {
-        color: var(--uchu-gray-1);
-        background: var(--uchu-yin-9);
+        color: var(--uchu-yin-1);
+        background: var(--uchu-yin-8);
         font-family: Avenir, "Sesgoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", system-ui, -apple-system, sans-serif;
-        /* font-family: "Cardo", Georgia, Times, "Times New Roman", sans-serif; */
     }
 
     a
@@ -74,7 +73,8 @@
 
     code
     {
-        background-color: #645454;
+        color: var(--uchu-yellow-9);
+        background-color: var(--uchu-yellow-1);
     }
 }
 
