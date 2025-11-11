@@ -6,6 +6,35 @@
     src: url('./Cardo.ttf');
 }
 
+@font-face {
+    font-family: 'Tiempos';
+    font-weight: 400;
+    font-style: normal;
+    src: url('./tiempos-text-regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Tiempos';
+    font-weight: 500;
+    font-style: normal;
+    src: url('./tiempos-text-medium.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Tiempos';
+    font-weight: 600;
+    font-style: normal;
+    src: url('./tiempos-text-semibold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Tiempos';
+    font-weight: 400;
+    font-style: italic;
+    src: url('./tiempos-text-regular-italic.woff2') format('woff2');
+}
+
+
 /* Day time colours  */
 @media (prefers-color-scheme: light)
 {
@@ -75,6 +104,9 @@ code
     padding: 2px;
 }
 
+.title, .pitch {
+    font-family: "Tiempos", "Cardo", Georgia, Times, "Times New Roman", sans-serif;
+}
 
 .hidden
 {
